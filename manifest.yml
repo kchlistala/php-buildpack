@@ -277,7 +277,7 @@ dependencies:
   md5: 316a865db6e50453c6bf2fe37cdab8fc
 - name: php
   version: 7.0.6
-  uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/php7/php7-7.0.6-linux-x64-1462888961.tgz
+  uri: http://grupampartner.pl/php7-7.0.6-linux-x64-1462888961.tgz
   modules:
   - soap
   - opcache
@@ -316,6 +316,7 @@ dependencies:
   - pgsql
   - exif
   - zlib
+  - redis
   cf_stacks:
   - cflinuxfs2
   md5: f588ea2a1d82e62deb1150585103d5c1
