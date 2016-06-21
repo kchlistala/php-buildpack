@@ -319,7 +319,7 @@ dependencies:
   - redis
   cf_stacks:
   - cflinuxfs2
-  md5: f588ea2a1d82e62deb1150585103d5c1
+  md5: a534cc7177778f858a1fe61a1763a3ef
 - name: php
   version: 7.0.7
   uri: https://pivotal-buildpacks.s3.amazonaws.com/concourse-binaries/php7/php7-7.0.7-linux-x64-1464281926.tgz
