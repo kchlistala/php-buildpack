@@ -108,7 +108,9 @@ def validate_php_extensions(ctx):
     filtered_extensions = []
     requested_extensions = ctx['PHP_EXTENSIONS']
     supported_extensions = _get_supported_php_extensions(ctx)
-
+    print ', '.join(requested_extensions)
+    print ', '.join(supported_extensions)
+    
     for extension in requested_extensions:
         if extension not in supported_extensions:
             print("The extension '%s' is not provided by this buildpack." % extension, file=os.sys.stderr)
